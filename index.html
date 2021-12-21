@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор дат и таймер</title>
+    <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+    <button id="button__calc" type="button" class="switch">Калькулятор</button>
+    <button id="button__timer" type="button" class="switch">Таймер</button>
+    </div>
+    <form id="datecalc">
+        <div class="container">
+            <h3>Калькулятор дат:</h3>
+            <label>
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate">
+            </label>
+            <label>
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate">
+            </label>
+            <button type="submit">Рассчитать промежуток</button>
+            <p id="datecalc__result"></p>
+        </div>
+    </form>
+    <div id="timer">
+        <h2>Таймер</h2>
+        <div class="time"></div>
+        <input id="input" type="text">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>    
+    </div>
+
+
+    <!-- <h2>Таймер</h2>
+    <input placeholder="Введите секунды" type="text" name="time" id="time">
+    <button type="button" id="button__start">Старт</button> 
+    <button type="button" id="button__stop">Стоп</button>
+    <div id="timer__result"></div>
+    <div id="timer__err"></div> -->
+
+    <!-- <div class="container">
+            <input class="input__time" type="text" placeholder="Введите время">
+
+            <div class="buttons">
+                <button class="button start">Start</button>
+                <button class="button stop">Stop</button>
+            </div>
+            <div class="timer">
+                <div class="timer__block">
+                    <div class="time minut">00</div>
+                    <div class="title">Minutes</div>
+                </div>
+    
+                <div class="timer__block">
+                    <div class="time second">00</div>
+                    <div class="title">Seconds</div>
+                </div>
+    
+                <div class="timer__block">
+                    <div class="time millisecond">00</div>
+                    <div class="title">Millisecond</div>
+                </div>
+            </div>
+            <div id="timer__err"></div>
+        </div> -->
+</body>
+</html>
