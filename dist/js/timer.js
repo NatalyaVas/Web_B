@@ -1,4 +1,3 @@
-//import sound from './howler.js'
 import {Howl} from 'howler'
 
 export var sound = new Howl ({
