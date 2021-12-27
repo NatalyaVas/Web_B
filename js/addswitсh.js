@@ -1,4 +1,4 @@
-import sound from './howler.js'
+import sound from './timer.js'
 
 export function addSwitch() {
     const buttonTimer = document.querySelector('#button__timer');

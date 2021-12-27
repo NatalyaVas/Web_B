@@ -1,5 +1,12 @@
 import sound from './howler.js'
 
+import {Howl} from "howler"
+
+export default var sound 
+sound = new Howl ({
+    src: ['./sound.mp3']
+})
+
 const getInput = document.getElementById('input')
 const blockTime = document.querySelector('.time')
 let interval
